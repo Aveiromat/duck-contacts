@@ -11,6 +11,7 @@ const initialState: TarefasState = {
     {
       id: 1,
       descricao: 'E-mail do contato',
+      telefone: '(99) 99999-9999',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.CONCLUIDA,
       titulo: '1° Exemplo de contato'
@@ -18,6 +19,7 @@ const initialState: TarefasState = {
     {
       id: 2,
       descricao: 'E-mail do contato',
+      telefone: '(99) 99999-9999',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.PENDENTE,
       titulo: '2° Exemplo de contato'
@@ -25,6 +27,7 @@ const initialState: TarefasState = {
     {
       id: 3,
       descricao: 'E-mail do contato',
+      telefone: '(99) 99999-9999',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.CONCLUIDA,
       titulo: '3° Exemplo de contato'

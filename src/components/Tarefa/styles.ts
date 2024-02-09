@@ -53,6 +53,20 @@ export const Tag = styled.span<TagProps>`
   display: inline-block;
 `
 
+export const Telefone = styled.textarea`
+  color: #1e272e;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Roboto Mono', monospace;
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  resize: none;
+  border: none;
+  background-color: transparent;
+`
+
 export const Descricao = styled.textarea`
   color: #8b8b8b;
   font-size: 14px;
@@ -60,8 +74,6 @@ export const Descricao = styled.textarea`
   font-family: 'Roboto Mono', monospace;
   display: block;
   width: 100%;
-  margin-bottom: 16px;
-  margin-top: 16px;
   resize: none;
   border: none;
   background-color: transparent;
