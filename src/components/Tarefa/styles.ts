@@ -38,8 +38,6 @@ border-radius: 16px;
 export const Titulo = styled.h3`
 font-size: 18px
 font-weight: bold;
-margin-left: 8px;
-
 `
 
 export const Tag = styled.span<TagProps>`

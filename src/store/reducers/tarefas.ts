@@ -20,7 +20,7 @@ const initialState: TarefasState = {
       id: 2,
       descricao: 'E-mail do contato',
       telefone: '(99) 99999-9999',
-      prioridade: enums.Prioridade.NORMAL,
+      prioridade: enums.Prioridade.URGENTE,
       status: enums.Status.PENDENTE,
       titulo: '2° Exemplo de contato'
     },
