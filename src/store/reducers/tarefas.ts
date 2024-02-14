@@ -10,11 +10,11 @@ const initialState: TarefasState = {
   itens: [
     {
       id: 1,
-      descricao: 'E-mail do contato',
-      telefone: '(99) 99999-9999',
+      descricao: 'matheusaveirofagundes@gmail.com',
+      telefone: '(53) 98106-7380',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.CONCLUIDA,
-      titulo: '1° Exemplo de contato'
+      titulo: 'Matheus Aveiro'
     },
     {
       id: 2,
